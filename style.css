@@ -1479,3 +1479,10 @@ img {
     display: none;
   }
 }
+
+@media only screen and (max-width: 385px) {
+  .sonar-portfolio-menu .btn{
+    font-size: 10px;
+  }
+
+}

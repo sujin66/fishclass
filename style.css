@@ -1468,3 +1468,14 @@ img {
 .single-services-area > a :hover {
   font-weight: bolder;
 }
+
+
+@media only screen and (max-width: 767px) {
+  .hero-area .hero-content h2{
+    display: none;
+  }
+
+  .hero-area .hero-content .line{
+    display: none;
+  }
+}

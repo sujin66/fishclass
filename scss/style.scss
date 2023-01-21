@@ -1082,6 +1082,7 @@ img {
             color: $color-white;
             font-size: 48px;
             margin-bottom: 25px;
+
             @media #{$breakpoint-lg} {
                 font-size: 40px;
             }
@@ -1091,6 +1092,7 @@ img {
             @media #{$breakpoint-xs} {
                 font-size: 30px;
             }
+
         }
         p {
             color: $color-white;

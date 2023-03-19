@@ -961,9 +961,9 @@ img {
     margin-bottom: 20px; }
   .single-services-area h4 {
     font-size: 28px;
-    margin-bottom: 40px; }
+    margin-bottom: 4px; }
   .single-services-area p {
-    margin-bottom: 0; }
+    margin-bottom: 8px; }
 
 /* :: Testimonials Area CSS */
 .sonar-testimonials-area {
@@ -1031,7 +1031,7 @@ img {
 .sonar-projects-area {
   position: relative;
   z-index: 1;
-  padding: 100px 35px 50px; }
+  padding: 50px 35px 50px; }
   .sonar-projects-area .single_gallery_item {
     position: relative;
     z-index: 1;
@@ -1047,20 +1047,24 @@ img {
         margin-bottom: 0; }
 
 .sonar-portfolio-menu {
-  position: absolute;
+  /* position: absolute;
   bottom: 40px;
   right: 0;
   width: 50%;
-  z-index: 100; }
+  z-index: 100;  */
+  padding-bottom: 50px;
+}
+
+
   .sonar-portfolio-menu .btn {
-    padding: 5px 0;
+    padding: 5px;
     border: none;
     border-bottom: 2px solid;
     border-color: transparent;
-    background-color: transparent;
-    color: #ffffff;
-    border-radius: 0;
-    margin: 0 20px; }
+    background-color: #f0f0f0;
+    color: #000;
+    border-radius: 5px;
+    margin: 2px 5px; }
     .sonar-portfolio-menu .btn.active {
       border-color: #ffffff; }
     .sonar-portfolio-menu .btn:hover, .sonar-portfolio-menu .btn:focus {
@@ -1080,6 +1084,9 @@ img {
     .sonar-portfolio-menu {
       width: 100%;
       bottom: 20px; } }
+
+      .sonar-portfolio-menu.btn :hover {background-color: red;}
+
 
 /* :: Blog Area CSS */
 .sonar-blog-area,
@@ -1486,3 +1493,50 @@ img {
   }
 
 }
+
+
+
+.gallery-comment{
+  display: flex;
+
+}
+
+.gallery-comment h6{
+  padding-right: 5px;
+}
+
+.searchbar{
+  width: 50%;
+  display: flex;
+}
+
+.form-control{
+  width: 100%;
+  border: 3px solid ;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #dbdcdd;
+  box-sizing: border-box;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #dbdcdd;
+  background: #aaa;
+  text-align: center;
+  color: #dbdcdd;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  box-sizing: bor;
+}
+
+
+.form-control:focus {
+  border-color: #dbdcdd;
+}
+
